@@ -1,0 +1,587 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url(../img/big-bg.svg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-color: #120b31;
+}
+
+.left_nav {
+  position: fixed;
+}
+
+.main_content {
+  margin-left: 10.2em;
+  margin-top: 0em;
+}
+
+.idea {
+  padding-top: 0.7em;
+  margin-left: -0.05em;
+}
+
+.idea-descr {
+  max-width: 41rem;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 2.25rem;
+  font-size: 1.5rem;
+  padding-top: 0.89em;
+  margin-left: -0.08em;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.our-stats {
+  display: flex;
+}
+
+.card {
+  text-align: center;
+}
+
+.stats-nubmer {
+  padding-top: 1.61em;
+  font-size: 4.583rem;
+  font-weight: 700;
+  background: linear-gradient(90deg,
+      #ffcc67 0%,
+      #fe785c 23.14%,
+      #ea5bda 50.2%,
+      #492af3 100.01%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.stats-nubmer span {
+  padding-left: 0.17em;
+}
+
+.stats-descr {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  padding-top: 0.34em;
+}
+
+.workers {
+  padding-left: 4.3em;
+  padding-right: 7.84em;
+}
+
+.clients {
+  padding-right: 6.4em;
+}
+
+/* how-we-work  */
+
+.how-we-work h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.6rem;
+  padding-top: 2.31em;
+  color: #ffffff;
+  padding-left: 5.22em;
+  margin-bottom: 1.3em;
+}
+
+.steps-wrapper {
+  display: flex;
+  padding-left: 7.8em;
+}
+
+.step-name {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+  padding-bottom: 0.74em;
+}
+
+.step-descr {
+  opacity: 0.8;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  padding-bottom: 4.6em;
+  max-width: 19.6rem;
+}
+
+.right-side {
+  padding-left: 4.2em;
+}
+
+.center-arrow {
+  width: 1.917rem;
+  height: 41rem;
+  margin-left: 1.5em;
+}
+
+/* our-clients */
+
+.our-clients-idea {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.6rem;
+  padding-left: 5.85em;
+  padding-top: 1.37em;
+}
+
+.our-clients-descr {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  padding-left: 17.37em;
+  padding-top: 1.6em;
+  opacity: 0.9;
+}
+
+.our-clients-list {
+  display: inline-flex;
+  margin-top: 2.75em;
+  margin-left: 6.7em;
+  align-items: center;
+}
+
+.our-clients-list li+li {
+  margin-left: 6.64em;
+}
+
+.sber {
+  width: 3.583rem;
+  height: 3.458rem;
+}
+
+.lamoda {
+  width: 3rem;
+  height: 2.708rem;
+}
+
+.o2 {
+  width: 2.4rem;
+  height: 3.08rem;
+}
+
+.home {
+  width: 6.69em;
+  height: 2.58em;
+}
+
+.epsilon {
+  width: 3.875rem;
+  height: 2.25rem;
+}
+
+/* FOOTER */
+
+.is-it-interest {
+  margin-top: -0.1em;
+}
+
+.phone-illustration {
+  width: 23.3em;
+  height: 19.1em;
+  padding-left: 16em;
+  margin-top: -0.5em;
+  position: absolute;
+  left: 30.55em;
+  top: 117.8em;
+}
+
+.mark {
+  position: absolute;
+  opacity: 0.2;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2rem;
+  top: 146.7em;
+  left: 10.17em;
+  padding-bottom: 2.25em;
+}
+
+.sumbit-btn {
+  position: absolute;
+  top: 138.2em;
+}
+
+.form_input {
+  width: 30.6%;
+}
+
+.mobile-version {
+  display: none;
+}
+
+@media (max-device-width: 480px) {
+  html {
+    overflow-y: scroll;
+  }
+
+  .mark {
+    display: none;
+  }
+
+  :root {
+    font-size: 24px;
+  }
+
+  body {
+    background-color: #120b31;
+    height: 100%;
+    background-image: none;
+  }
+
+  .mobile-version {
+    display: block;
+  }
+
+  .page_wrapper {
+    display: none;
+  }
+
+  .bg-logo {
+    position: absolute;
+    z-index: -999;
+    bottom: -1.7em;
+    left: -2.65em;
+  }
+
+  .mobile-nav-wrapper {
+    width: 100%;
+    height: 3.125rem;
+    background-color: #171035;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .mobile-nav-ul {
+    display: flex;
+    padding-top: 0.65em;
+    justify-content: center;
+  }
+
+  .mobile-nav-ul a {
+    text-align: center;
+  }
+
+  .mobile-nav-ul a li {
+    color: #fff;
+    font-size: 0.5rem;
+    font-weight: 500;
+    line-height: 0.6rem;
+  }
+
+  .mobile-nav-ul a li img {
+    padding-bottom: 0.45em;
+  }
+
+  .nav-main {
+    padding-right: 2.16em;
+    opacity: 0.5;
+  }
+
+  .mobile-active {
+    font-weight: 700;
+    background: linear-gradient(90deg,
+        #ffcc67 0%,
+        #fe785c 23.14%,
+        #ea5bda 50.2%,
+        #492af3 100.01%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+
+  .nav-about {
+    padding-right: 2.25em;
+    opacity: 1;
+  }
+
+  .nav-cases {
+    padding-right: 1.85em;
+    padding-top: 0.12em;
+    opacity: 0.5;
+  }
+
+  .nav-contacts {
+    opacity: 0.5;
+    padding-top: 0.11em;
+  }
+
+  .mobile-top {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.33em;
+  }
+
+  .mobile-logo {
+    margin-left: -0.2em;
+  }
+
+  .mobile-soc {
+    display: flex;
+    align-items: center;
+    margin-right: -0.1em;
+  }
+
+  .mobile-soc li+li {
+    margin-left: 0.71em;
+  }
+
+  .vk-mobile {
+    margin-top: -0.135em;
+  }
+
+  .mobile-idea {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    margin-left: 0.455em;
+    padding-top: 3.1vh;
+    display: block;
+  }
+
+  .mobile-idea-descr {
+    font-size: 0.667rem;
+    font-weight: 400;
+    line-height: 1rem;
+    opacity: 0.9;
+    margin-top: 1.5em;
+    margin-left: 1em;
+    margin-bottom: -0.2em;
+  }
+
+  .mobile-descr-span {
+    font-weight: 700;
+  }
+
+  .our-stats-mobile {
+    text-align: center;
+  }
+
+  .number-mobile {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    background: linear-gradient(90deg,
+        #ffcc67 0%,
+        #fe785c 23.14%,
+        #ea5bda 50.2%,
+        #492af3 100.01%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    margin-bottom: 0.0625em;
+    margin-top: 0.89em;
+  }
+
+  .number-descr-mobile {
+    font-size: 0.667rem;
+    font-weight: 500;
+    line-height: 1rem;
+    color: #ffffff;
+  }
+
+  .our-clients-header {
+    text-align: center;
+    margin-top: 3.1em;
+  }
+
+  .our-clients-header h5 {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.2rem;
+  }
+
+  .our-clients-header h6 {
+    opacity: 0.8;
+    color: #ffffff;
+    font-size: 0.583rem;
+    font-weight: 400;
+    line-height: 0.875rem;
+    margin-top: 0.65em;
+  }
+
+  .our-clients-list-mobile {
+    display: grid;
+    grid-row-gap: 2.4em;
+    margin-bottom: 3.1em;
+    margin-top: 1.7em;
+  }
+
+  .up-line-list {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1.18em;
+    margin-right: 1.18em;
+  }
+
+  .down-line-list {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2em;
+    margin-right: 2.3em;
+  }
+
+  .how-we-work-mobile-header {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.2rem;
+    margin-left: 1.333em;
+    margin-top: 3em;
+    margin-bottom: 1em;
+  }
+
+  .how-we-work-steps-mobile {
+    margin-left: 0.6em;
+    margin-bottom: 0.6em;
+  }
+
+  .work-section {
+    margin-bottom: 1.53em;
+    max-width: 11.28em;
+  }
+
+  .work-section h5 {
+    font-size: 0.667rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1rem;
+  }
+
+  .work-section h6 {
+    opacity: 0.8;
+    color: #ffffff;
+    font-size: 0.583rem;
+    font-weight: 400;
+    line-height: 0.875rem;
+    margin-top: 0.6em;
+  }
+
+  .line-and-steps {
+    display: flex;
+  }
+
+  .steps-arrow {
+    width: 1.1rem;
+    height: 37rem;
+    margin-left: 1em;
+  }
+
+  .step-number-mobile {
+    color: rgba(255, 255, 255, 0.5);
+    padding-right: 0.23em;
+  }
+
+  .contact-us-mobile {
+    text-align: center;
+  }
+
+  .phone-illustration-mobile {
+    width: 10.29em;
+    height: 8.41em;
+  }
+
+  .have-you-interested {
+    margin-bottom: 0em;
+  }
+
+  .have-you-interested h5 {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.2rem;
+    margin-top: 2.3em;
+  }
+
+  .have-you-interested h6 {
+    opacity: 0.8;
+    color: #ffffff;
+    font-size: 0.583rem;
+    font-weight: 400;
+    line-height: 0.875rem;
+    margin-top: 0.7em;
+  }
+
+  .form {
+    margin-bottom: 0em;
+    margin-top: 1.8em;
+  }
+
+  .sumbit-btn {
+    text-align: center;
+    border: 0px;
+    width: 10.292rem;
+    height: 2.042rem;
+    border-radius: 12.5rem;
+    background-image: linear-gradient(90deg,
+        #ffcc67 0%,
+        #fe785c 23.14%,
+        #ea5bda 50.2%,
+        #492af3 100.01%);
+    font-family: Montserrat;
+    font-size: 0.5rem;
+    font-weight: 700;
+    line-height: 0.6rem;
+    color: #ffffff;
+    position: static;
+    top: 0em;
+    left: 0em;
+    margin-bottom: 23vh;
+  }
+
+  .form_grup {
+    position: relative;
+    margin-bottom: 1.7em;
+  }
+
+  .form_input {
+    width: 68%;
+    padding: 0.7em 0 0em 0;
+    border: none;
+    border-bottom: 0.04em solid rgba(255, 255, 255, 0.4);
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+    height: 2em;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 0.7rem;
+    font-weight: 500;
+    opacity: 1;
+  }
+
+  .form_input:focus {
+    border-bottom: 0.04em solid #fff;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 0.7rem;
+    font-weight: 500;
+    opacity: 1;
+  }
+
+  ::placeholder {
+    opacity: 0.4;
+    color: #ffffff;
+    font-size: 0.583rem;
+    font-weight: 500;
+    line-height: 0.875rem;
+    opacity: 0.4;
+    padding-top: 0.5em;
+  }
+
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Главная</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/case-card.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/home-case-card.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
+    <meta name="yandex-verification" content="87d3c7c6282b8a9b" />
+</head>
+
+<body>
+    <div class="page_wrapper">
+        <div class="left_nav">
+            <img class="blossom_logo" src="./img/blossom_logo.svg" alt="Logo">
+            <ul class="nav">
+                <li class="li1"><a href="index.html">Главная</a></li>
+                <li class="li2"><a href="about.html">О Студии</a></li>
+                <li class="active li3"><a href="cases.html">Кейсы</a></li>
+                <li class="li4"><a href="contacts.html">Контакты</a></li>
+            </ul>
+            <ul class="soc">
+                <a href="https://www.facebook.com/Blossom-It-104966150877434/" target="_blank">
+                    <li><img class="fb" src="./img/Facebook.svg" alt="fb"></li>
+                </a>
+                <a href="https://vk.com/blossom_it" target="_blank">
+                    <li><img src="./img/VK.svg" class="vk" alt="vk"></li>
+                </a>
+                <a href="https://instagram.com/blossomit" target="_blank">
+                    <li><img class="inst" src="./img/Instagram.svg" alt="inst"></li>
+                </a>
+            </ul>
+        </div>
+        <!-- .left_nav -->
+        <div class="main_content">
+            <img class="second_part_of_logo" src="./img/BlossomIT_logo.svg" alt="Second_logo">
+            <div class="sides-wrapper">
+                <div class="left-side-descr">
+                    <div class="idea-be">
+                        <h1 class="idea">
+                            Корпоративный <br>портал «Твой Дом»
+                        </h1>
+                        <a href="https://www.behance.net/gallery/85670013/korporativnyj-portal-dlj" target="_blank">
+                            <img class="be-logo" src="./img/case-cards/be-logo.svg" alt="be-logo"
+                                style=" margin-left: 4.3em;">
+                        </a>
+                    </div>
+                    <!-- /.idea-be -->
+                    <ul class="incl">
+                        <li>UX</li>
+                        <li>UI</li>
+                        <li>Иллюстрации</li>
+                        <li>Frontend</li>
+                        <li>Backend</li>
+                        <li>Поддержка</li>
+                    </ul>
+                    <!-- /.incl -->
+                    <img src="./img/case-cards/home-card-img.png" alt="o2-card-img" class="o2-card-img">
+                    <div class="case-problem-wrapper">
+                        <div class="case-problem-name">
+                            Цель
+                        </div>
+                        <!-- /.case-problem-name -->
+                        <div class="case-problem-descr">
+                            Оптимизировать процесс обработки <br>
+                            заявок управляющей компанией от жильцов. <br>
+                            Для этого решили разработать CRM.<br>
+                        </div>
+                        <!-- /.case-problem-descr -->
+                    </div>
+                    <!-- /.case-problem-wrapper -->
+                    <div class="case-problem-wrapper">
+                        <div class="case-problem-name">
+                            Проблема
+                        </div>
+                        <!-- /.case-problem-name -->
+                        <div class="case-problem-descr">
+                            Диспетчеры могут слабо понимать в интерфейсах,
+                            но все равно должны оперативно обрабатывать <br>
+                            заявки, редактировать их, назначать сотрудников <br>
+                            на их выполнение и контроллировать работу.<br>
+                        </div>
+                        <!-- /.case-problem-descr -->
+                    </div>
+                    <!-- /.case-problem-wrapper -->
+                    <div class="case-problem-wrapper">
+                        <div class="case-problem-name">
+                            Решение
+                        </div>
+                        <!-- /.case-problem-name -->
+                        <div class="case-problem-descr">
+                            Отрисовали чистый и минималистичный<br>
+                            интерфейс, сделали акцент на ключевых <br>
+                            элементах. Использовали понятные аудитории <br>
+                            паттерны вроде бокового меню или таблицы как <br>
+                            формы представления списка заявок.
+                        </div>
+                        <!-- /.case-problem-descr -->
+                    </div>
+                    <!-- /.case-problem-wrapper -->
+                    <div class="is-it-interest">
+                        Заинтересовали?
+                    </div>
+                    <!-- /.is-it-interest -->
+                    <div class="is-it-interest-descr">
+                        Оставьте информацию о себе, и мы вам напишем
+                    </div>
+                    <!-- /.is-it-interest-descr -->
+                    <div class="form-wrapper">
+                        <form class="form" action="send.php" method="post">
+                            <!-- Hidden Required Fields -->
+                            <input type="hidden" name="project_name" value="BlossomIT">
+                            <input type="hidden" name="admin_email" value="work@blossomit.ru">
+                            <input type="hidden" name="form_subject" value="Заявка с сайта cо страницы уютоного дома
+                            ">
+                            <!-- END Hidden Required Fields -->
+                            <div class="form_grup">
+                                <input type="text" name="Name" class="form_input" placeholder="Имя" required>
+                            </div>
+                            <div class="form_grup">
+                                <input type="text" name="E-mail" class="form_input" placeholder="Email" required>
+                            </div>
+                            <div class="form_grup">
+                                <input type="text" name="About" class="form_input" placeholder=" О проекте">
+                            </div>
+                            <button class="sumbit-btn">Оставить заявку</button>
+                        </form>
+                    </div>
+                    <!-- /.form -->
+                    <div class="watermark">
+                        © Blossom IT 2020
+                    </div>
+                    <!-- /.watermark -->
+                </div>
+                <!-- /.left-side-descr -->
+                <div class="right-side-descr">
+                    <div class="case-descr-wrapper">
+                        <div class="about-case">
+                            О проекте
+                        </div>
+                        <!-- /.about-case -->
+                        <div class="case-logo">
+                            <img src="./img/case-cards/home-logo.svg" alt="o2-logo" class="case-logo">
+                        </div>
+                        <!-- /.case-logo -->
+                        <div class="case-descr">
+                            Управляющая компания в Таганроге<br>
+                            с большим количеством домов в<br>
+                            управлении, огромным опытом, кучей<br>
+                            заявок и желанием оптимизировать рабочие процессы.
+                        </div>
+                        <!-- /.case-descr -->
+                        <div class="case-fithes">
+                            <div class="client-number">
+                                <ul class="fithes">
+                                    <li class="gradient"> 97</li>
+                                    <li class="number-descr1"> домов</li>
+                                </ul>
+                            </div>
+                            <!-- /.client-number -->
+                            <div class="ages-number">
+                                <ul>
+                                    <li class="gradient"> 12</li>
+                                    <li class="number-descr1">лет на рынке</li>
+                                </ul>
+                            </div>
+                            <!-- /.ages-number -->
+                            <div class="shops-in-web">
+                                <ul>
+                                    <li class="gradient"> 65</li>
+                                    <li class="number-descr1">сотрудников</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- /.case-fithes -->
+                    </div>
+                    <!-- /.case-descr-wrapper -->
+                </div>
+                <!-- /.right-side-descr -->
+            </div>
+            <!-- /.sides-wrapper -->
+            <img src="./img/case-cards/phone-illustration.svg" alt="phone-illustration" class="phone-illustration">
+
+            <!-- /.main_content -->
+        </div>
+        <!-- /.page_wrapper -->
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>

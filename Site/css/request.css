@@ -1,0 +1,90 @@
+.idea {
+  margin-left: -0.04em;
+}
+
+.idea-descr {
+  opacity: 1;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  margin-top: 0.82em;
+}
+
+.opacity {
+  opacity: 0.6;
+}
+
+/* FORM */
+.form {
+  margin-top: 2.9em;
+}
+
+.sumbit-btn {
+  text-align: center;
+  border: 0px;
+  width: 20.292rem;
+  height: 3.583rem;
+  border-radius: 12.5rem;
+  background-image: linear-gradient(
+    90deg,
+    #ffcc67 0%,
+    #fe785c 23.14%,
+    #ea5bda 50.2%,
+    #492af3 100.01%
+  );
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2rem;
+  position: absolute;
+  top: 30.75em;
+  color: #ffffff;
+}
+
+.form_grup {
+  position: relative;
+  margin-bottom: 2.82em;
+}
+
+.form_input {
+  width: 17.22em;
+  border: none;
+  border-bottom: 0.083em solid rgba(255, 255, 255, 0.4);
+  background-color: transparent;
+  outline: none;
+  transition: 0.3s;
+  height: 2.2em;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 500;
+  opacity: 0.4;
+}
+
+.form_input:focus {
+  border-bottom: 0.04em solid #fff;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 500;
+  opacity: 1;
+}
+
+::placeholder {
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 4em;
+  padding-left: 0.85em;
+  opacity: 1;
+}
+
+.phone-illustration {
+  position: absolute;
+  top: 5.67em;
+  left: 23.26em;
+  width: 23.3rem;
+  height: 19.16rem;
+}

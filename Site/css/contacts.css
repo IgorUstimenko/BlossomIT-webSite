@@ -1,0 +1,61 @@
+body {
+    overflow: hidden;
+}
+
+.idea {
+    margin-left: -0.04em;
+}
+
+.idea-descr {
+    opacity: 0.6;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    margin-top: 0.79em;
+}
+
+.contacts-ways-wrapper {
+    margin-top: 3.2em;
+}
+
+.contact-way {
+    opacity: 0.6;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    padding-bottom: 0.08em;
+}
+
+.contact-content {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    padding-bottom: 1em;
+}
+
+.sumbit-btn {
+    text-align: center;
+    border: 0px;
+    width: 20.292rem;
+    height: 3.583rem;
+    border-radius: 12.5rem;
+    background-image: linear-gradient(90deg, #FFCC67 0%, #FE785C 23.14%, #EA5BDA 50.2%, #492AF3 100.01%);
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.2rem;
+    margin-top: 2.7em;
+    color: #ffffff;
+}
+
+.contacts-illustration {
+    height: 25%;
+    width: 25.5%;
+    margin-top: 3em;
+    margin-left: 11.4em;
+    border-radius: 1.375rem;
+    background-image: linear-gradient(NaNdeg, #ffcc67 0%, #fe785c 23%, #ea5bda 50%, #492af3 100%);
+}

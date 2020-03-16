@@ -1,0 +1,39 @@
+.case-logo {
+  margin-top: 1.2em;
+  width: 14em;
+  height: 3.08em;
+}
+
+.case-descr {
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  max-width: 20.708rem;
+  margin-top: 2.3em;
+}
+
+.ages-number {
+  margin-left: 0.7em;
+}
+
+.case-problem-descr {
+  max-width: 27rem;
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  padding-top: 1.18em;
+  margin-left: 0.1em;
+}
+
+
+.phone-illustration {
+  top: 87.8em;
+}
+
+.sumbit-btn {
+  top: 108.58em;
+}

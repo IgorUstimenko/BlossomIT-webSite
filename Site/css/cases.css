@@ -1,0 +1,349 @@
+:root {
+  font-size: calc(100vw / 80);
+  height: 100vh;
+  /* 24px */
+}
+
+html {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url(../img/main-bg.svg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-color: #120b31;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Переназначения */
+.idea {
+  margin-left: -0.035em;
+}
+
+/* Переназначения */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.content_wrapper {
+  flex: 1 0 auto;
+}
+
+footer {
+  display: flex;
+  flex: 0 0 auto;
+}
+
+/* Табы */
+
+.section {
+  position: absolute;
+  bottom: 0em;
+  height: 25.2em;
+  width: 21.1em;
+  background-color: #009f91;
+  transition: 0.5s;
+}
+
+.section:hover {
+  padding-bottom: 2.7em;
+  transition: 0.7s;
+}
+
+.tabs {
+  display: flex;
+  position: relative;
+  margin-left: 10.2em;
+}
+
+.second_section {
+  margin-left: 21.1em;
+  background-color: #4b3db8;
+}
+
+.third_section {
+  margin-left: 42.2em;
+  background-color: #171717;
+}
+
+/* Карточка кейса */
+.o2-min-logo {
+  margin-left: 2.04em;
+  margin-top: 1.875em;
+}
+
+.section-name-wrapper {
+  margin-left: 6.05em;
+  margin-top: -1.8em;
+}
+
+.section-name {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+.section-descr {
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.125rem;
+  margin-top: 0.3em;
+  letter-spacing: -0.01em;
+}
+
+.section-icons-ul {
+  display: flex;
+  margin-top: 1.7em;
+}
+
+.section-icons-ul li + li {
+  margin-left: 2.1em;
+}
+
+.desctop-logo {
+  height: 0.975rem;
+  width: 0.85rem;
+}
+
+.mobile-logo {
+  height: 0.975rem;
+  width: 0.5rem;
+}
+
+.section-img {
+  margin-left: -2.55em;
+  margin-top: 1.8em;
+  width: 19.208rem;
+  height: 10.875rem;
+}
+
+.o2-min-logo {
+  width: 1.125em;
+  height: 1.375em;
+}
+
+.next-case {
+  width: 6.542rem;
+  height: 25.2rem;
+  background-color: #291c5e;
+  margin-left: 63.3em;
+}
+
+.next-case:hover {
+  padding-bottom: 0em;
+}
+
+.nex-arrow {
+  margin-left: 2.5em;
+  margin-top: 10.45em;
+  width: 1.583rem;
+  height: 3rem;
+}
+
+.mobile-version {
+  display: none;
+}
+
+@media (max-device-width: 480px) {
+  .mobile-logo {
+    height: initial;
+    width: initial;
+  }
+
+  html {
+    overflow-y: scroll;
+  }
+
+  .mark {
+    display: none;
+  }
+
+  .container {
+    display: none;
+  }
+
+  :root {
+    font-size: 24px;
+  }
+
+  body {
+    background-color: #120b31;
+    height: 100%;
+    background-image: none;
+    overflow-y: scroll;
+  }
+
+  .mobile-version {
+    display: block;
+  }
+
+  .page_wrapper {
+    display: none;
+  }
+
+  .bg-logo {
+    position: absolute;
+    z-index: -999;
+    bottom: -1.7em;
+    left: -2.65em;
+  }
+
+  .mobile-nav-wrapper {
+    width: 100%;
+    height: 3.125rem;
+    background-color: #171035;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .mobile-nav-ul {
+    display: flex;
+    padding-top: 0.65em;
+    justify-content: center;
+  }
+
+  .mobile-nav-ul a {
+    text-align: center;
+  }
+
+  .mobile-nav-ul a li {
+    color: #fff;
+    font-size: 0.5rem;
+    font-weight: 500;
+    line-height: 0.6rem;
+  }
+
+  .mobile-nav-ul a li img {
+    padding-bottom: 0.45em;
+  }
+
+  .nav-main {
+    padding-right: 2.16em;
+    opacity: 0.5;
+  }
+
+  .mobile-active {
+    font-weight: 700;
+    background: linear-gradient(
+      90deg,
+      #ffcc67 0%,
+      #fe785c 23.14%,
+      #ea5bda 50.2%,
+      #492af3 100.01%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+
+  .nav-about {
+    padding-right: 2.25em;
+    opacity: 0.5;
+  }
+
+  .nav-cases {
+    padding-right: 1.85em;
+    padding-top: 0.12em;
+    opacity: 1;
+  }
+
+  .nav-contacts {
+    opacity: 0.5;
+    padding-top: 0.11em;
+  }
+
+  .mobile-top {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.33em;
+  }
+
+  .mobile-logo {
+    margin-left: -0.2em;
+  }
+
+  .mobile-soc {
+    display: flex;
+    align-items: center;
+    margin-right: -0.1em;
+  }
+
+  .mobile-soc li + li {
+    margin-left: 0.71em;
+  }
+
+  .vk-mobile {
+    margin-top: -0.135em;
+  }
+
+  .mobile-idea {
+    margin-left: 0.45em;
+  }
+
+  .our-cases-mobile-wrapper {
+    margin-bottom: 6em;
+    margin-top: 1em;
+  }
+
+  .case-mobile {
+    width: 100%;
+    height: 10.333rem;
+  }
+
+  .o2-case-mobile {
+    background-color: #009f91;
+  }
+  .home-case-mobile {
+    background-color: #4b3db8;
+  }
+  .epsilon-case-mobile {
+    background-color: #171717;
+  }
+
+  .types-of-view-mobile > ul {
+    display: flex;
+    padding-top: 0.725em;
+    padding-left: 1.333em;
+  }
+
+  .types-of-view-mobile > ul > li + li {
+    padding-left: 1em;
+  }
+
+  .case-name-mobile {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.2rem;
+    margin-left: 1.25em;
+    margin-top: 0.4em;
+  }
+  .case-descr-mobile {
+    opacity: 0.65;
+    color: #ffffff;
+    font-size: 0.583rem;
+    font-weight: 400;
+    line-height: 0.875rem;
+    margin-top: 0.55em;
+    margin-left: 2.1em;
+    letter-spacing: 0em;
+  }
+
+  .case-preview-mobile > img {
+    width: 100%;
+    height: 5.167rem;
+    border-top-left-radius: 0.625rem;
+    border-top-right-radius: 0.625rem;
+    margin-top: 0.73em;
+  }
+}

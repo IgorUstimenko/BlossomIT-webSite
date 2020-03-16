@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Главная</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/request.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap" rel="stylesheet">
+    <meta name="yandex-verification" content="87d3c7c6282b8a9b" />
+
+</head>
+
+<body>
+    <div class="page_wrapper">
+        <div class="left_nav">
+            <img class="blossom_logo" src="./img/blossom_logo.svg" alt="Logo">
+            <ul class="nav">
+                <li class="li1"><a href="index.html">Главная</a></li>
+                <li class="li2"><a href="about.html">О Студии</a></li>
+                <li class="li3"><a href="cases.html">Кейсы</a></li>
+                <li class="active li4"><a href="contacts.html">Контакты</a></li>
+            </ul>
+            <ul class="soc">
+                <a href="https://www.facebook.com/Blossom-It-104966150877434/" target="_blank">
+                    <li><img class="fb" src="./img/Facebook.svg" alt="fb"></li>
+                </a>
+                <a href="https://vk.com/blossom_it" target="_blank">
+                    <li><img src="./img/VK.svg" class="vk" alt="vk"></li>
+                </a>
+                <a href="https://instagram.com/blossomit" target="_blank">
+                    <li><img class="inst" src="./img/Instagram.svg" alt="inst"></li>
+                </a>
+            </ul>
+        </div>
+        <!-- .left_nav -->
+        <div class="main_content">
+            <img class="second_part_of_logo" src="./img/BlossomIT_logo.svg" alt="Second_logo">
+            <h1 class="idea">Оставить заявку</h1>
+            <div class="idea-descr">
+                <span class="opacity">Или позвоните на</span> +7 (918) 542-13-33
+            </div>
+            <!-- /.idea-descr -->
+            <div class="form-wrapper">
+                <form class="form" action="send.php" method="post">
+                    <!-- Hidden Required Fields -->
+                    <input type="hidden" name="project_name" value="BlossomIT">
+                    <input type="hidden" name="admin_email" value="work@blossomit.ru">
+                    <input type="hidden" name="form_subject" value="Заявка с сайта со страницы заявок">
+                    <!-- END Hidden Required Fields -->
+                    <div class="form_grup">
+                        <input type="text" name="Name" class="form_input" placeholder="Имя" required>
+                    </div>
+                    <div class="form_grup">
+                        <input type="text" name="E-mail" class="form_input" placeholder="Email" required>
+                    </div>
+                    <div class="form_grup">
+                        <input type="text" name="About" class="form_input" placeholder=" О проекте">
+                    </div>
+                    <button class="sumbit-btn">Оставить заявку</button>
+                </form>
+            </div>
+            <!-- /.form -->
+            <div class="phone-illustration">
+                <img class="phone-illustration" src="./img/case-cards/phone-illustration.svg" alt="phone-illustration">
+            </div>
+            <!-- /.phone-illustration -->
+        </div>
+        <!-- /.page_wrapper -->
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>
